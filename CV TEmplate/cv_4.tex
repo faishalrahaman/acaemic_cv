@@ -1,0 +1,341 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.1in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Your Name} % Your name
+\address{Your Address, Your Address\\, City, Country} % Your address
+
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+%\address{ LinkedIn: https://www.linkedin.com/faishalrahaman}
+
+\address{Phone: +86-xxxxxxxxxx \\ Email: yourname@gmail.com} 
+% Your phone number and email
+
+
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textcolor{RoyalPurple}{\MakeUppercase{#1}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+\setlength{\leftmargin}{1.5em}
+}
+\item[]
+}{
+\end{list}
+}
+
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+%Masters
+{\bf Beijing Institute of Technology}, Beijing, China \hfill \textbf{September 2022-June 2024}\\
+Masters in Mechanical Engineering \hfill \\ 
+Supervisor: Professor XXXXX \hfill \\
+%Graduation: June 2024 \\
+%Specialization: Intelligent Vehicles and their controls, Collaboration of Multiple vehicles and their path planning. \\
+Thesis Title: Write your thesis title\\
+CGPA: Overall 4.00/4.00\%  \\
+
+%  Bachelor
+{\bf Beijing Institute of Technology}, Beijing, China  \hfill \textbf{September 2018-June 2022}\\
+Bachelors in Mechanical Engineering  \hfill  \\
+Supervisor: Supervisor's Name \\
+%Specialization: Intelligent Vehicles and their controls, Collaboration of Multiple vehicles and their path planning. \\
+Thesis Title: Write your thesis title \\
+CGPA: Overall 4.00/4.00
+
+
+
+
+%%% Research Interest %%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{rSection}{Research Interests} %mention your research interests
+mention your research interests, mention your research interests, mention your research interests, mention your research interests.
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Research EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications}
+\item \textbf{My Namme}, Co-author 1, Co-author 2, Co-author 3, \textit{Paper Title}, Name of the conference or Journal, Publisher, Volume of the publication and DOI.\\
+
+%\vspace{-18pt}
+
+\item \textbf{My Namme}, Co-author 1, Co-author 2, Co-author 3, \textit{Paper Title}, Name of the conference or Journal, Publisher, Volume of the publication and DOI.\\
+
+\item \textbf{My Namme}, Co-author 1, Co-author 2, Co-author 3, \textit{Paper Title}, Name of the conference or Journal, Publisher, Volume of the publication and DOI.\\
+
+\end{rSection}
+
+
+
+%% Manuscript of research
+\begin{rSection}{Pending For Publication}
+
+\textbf \item \textbf{My Namme}, Co-author 1, Co-author 2, Co-author 3, \textit{Paper Title}, Name of the submitted conference or Journal, Publisher.(Accepted or Revision or on review).
+
+\textbf \item \textbf{My Namme}, Co-author 1, Co-author 2, Co-author 3, \textit{Paper Title}, Name of the submitted conference or Journal, Publisher.(Accepted or Revision or on review).
+
+\end{rSection}
+
+
+
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+%% Add your skills
+
+\begin{rSection}{Skills }
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{7ex}} l }
+Programming &  Python, C/C++, MATLAB \\
+
+Python Packages & Pandas, Matplotlib, Numpy, Scipy, Tensorflow, Pytorch \\
+
+Simulation Software & Carsim, Prescan, Simulink, CARLA,  ROS \\ 
+Software Version Control & Git, Github\\ 
+
+CAD & Autocad, PTC Creo, Solidworks \\
+
+Language  & Bangla(Mother Tongue), English(IELTS-6.5), Chinese \\
+%Operating System & Windows, Linux \\
+
+\end{tabular}
+\end{rSection}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	PRojects
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Project Work}
+
+
+% Project -1
+\begin{rSubsection}{Project Title}{\textbf{2023- June 2024}}{Master's Graduation Project}{\textbf{Supervised by:}  Write your Supervisor's name}
+%% write a short description about the project, with outcomes, contributions, etc.
+Collaborated on a project involving four unmanned ground vehicles, focusing on autonomous path planning, SLAM-based environmental understanding, and collision avoidance. Developed and tested multiple binary maps and implemented algorithms, including a proposed version of A*, RRT, RRT*, and PRM. Utilized MATLAB, Simulink with  Robotics Toolbox, and ROS2 for simulation and analysis. For physical experiments, the project used vehicles like mobile robots \\
+
+% Heilight the simulation approaches, language or tools that used in this project
+\textit{\textbf{Simulation Platform:}} Simulink, MATLAB, Robotics Toolbox, ROS. \\
+\end{rSubsection}
+
+
+% Project -2
+\begin{rSubsection}{Project Title}{\textbf{2023- June 2024}}{Master's Graduation Project}{\textbf{Supervised by:}  Write your Supervisor's name}
+%% write a short description about the project, with outcomes, contributions, etc.
+Collaborated on a project involving four unmanned ground vehicles, focusing on autonomous path planning, SLAM-based environmental understanding, and collision avoidance. Developed and tested multiple binary maps and implemented algorithms, including a proposed version of A*, RRT, RRT*, and PRM. Utilized MATLAB, Simulink with  Robotics Toolbox, and ROS2 for simulation and analysis. For physical experiments, the project used vehicles like mobile robots \\
+
+% Heilight the simulation approaches, language or tools that used in this project
+\textit{\textbf{Simulation Platform:}} Simulink, MATLAB, Robotics Toolbox, ROS. \\
+\end{rSubsection}
+
+
+% Project -3
+\begin{rSubsection}{Project Title}{\textbf{2023- June 2024}}{Master's Graduation Project}{\textbf{Supervised by:}  Write your Supervisor's name}
+%% write a short description about the project, with outcomes, contributions, etc.
+Collaborated on a project involving four unmanned ground vehicles, focusing on autonomous path planning, SLAM-based environmental understanding, and collision avoidance. Developed and tested multiple binary maps and implemented algorithms, including a proposed version of A*, RRT, RRT*, and PRM. Utilized MATLAB, Simulink with  Robotics Toolbox, and ROS2 for simulation and analysis. For physical experiments, the project used vehicles like mobile robots \\
+
+% Heilight the simulation approaches, language or tools that used in this project
+\textit{\textbf{Simulation Platform:}} Simulink, MATLAB, Robotics Toolbox, ROS. \\
+\end{rSubsection}
+
+
+
+
+%\end{rSection}
+
+
+%-------------------------------------------------------PResentation and Speach------------------------------------------------
+\begin{rSection}{Presentation and Speech}
+% Add your presentation and speeches 
+
+%1
+\begin{rSubsection}{4th International Conference on Innovative Research in Applied Science, Engineering and Technology (IRASET) }{\textbf{2024}}{Research Paper Presentation(Online)}{FEZ, Morocco}\\
+\end{rSubsection}
+
+%2
+\begin{rSubsection}{The International Conference on Energy and Green Computing (ICEGC’2023)} {\textbf{2023}}{Research Paper Presentation(Online)}{FEZ, Morocco}
+\end{rSubsection}
+
+%3
+\begin{rSubsection}{4th International Conference on Advances in Information Communication Technology and Computing (AICTC-2022)} {\textbf{2022}}{Research Paper Presentation(Online)}{Government Engineering College Bikaner, Rajasthan, India}
+\end{rSubsection}
+
+%4
+\begin{rSubsection}{4th International Conference on Emerging Technologies in Computing (iCETiC '21)} {\textbf{2021}}{Research Paper Presentation(Online)}{London Metropolitan University, London, UK}
+\end{rSubsection}
+
+%5
+\begin{rSubsection}{4th National Conference on Natural Science \& Technology}{\textbf{2017}}{Poster Presentation}{Asian University for Women, Chittagong, Bangladesh}
+\end{rSubsection}
+\end{rSection}
+%\end{rSection}
+
+
+
+%%%%%%%%%    Online Courses and Certifications     %%%%%%%%%%%%%
+%% If you have taken any online courses or got any certifications, mention them in this part
+
+\begin{rSection}{Courses and Certifications}
+\begin{rSubsection}{Introduction To Self driving Cars}{June 2016 - August 2016}{University of Toronto, Canada}{Coursera}\\
+\end{rSubsection}
+
+\begin{rSubsection}{Python 101 for Data Science}
+{IBM Developer Skills Network}{\textbf{Certificate Number:} mention the certificate number }{}\\
+\end{rSubsection}
+
+\begin{rSubsection}{Data Visualization With Python}
+{IBM Developer Skills Network}{\textbf{Certificate Number:} mention the certificate number}{}\\
+\end{rSubsection}
+
+\begin{rSubsection}{Machine Learning With Python}
+{IBM Developer Skills Network}{\textbf{Certificate Number:} mention the certificate number}{}\\
+\end{rSubsection}
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Teaching or WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Working Experience}
+
+\begin{rSubsection}{Assistant Engineer}{\textbf{August 2019 - December 2020}}{ABC Industries  Co., Ltd}{South California, USA}
+\item Mention the key contributions of your job.
+
+\item Mention the key contributions of your job..
+
+\item Mention the key contributions of your job.
+\end{rSubsection}
+
+% To add more sections , feel free to copy, pest and edit as your requirements
+
+\end{rSection}
+
+
+
+%% Voluntary Experience%%%%
+
+\begin{rSection}{Voluntary Experience}
+
+%1
+\begin{rSubsection}{Mention the voluntary position}{\textbf{September 2022 - June 2024}}{Affiliation of the Organization}{Beijing, China}
+\end{rSubsection}
+
+%2
+\begin{rSubsection}{Mention the voluntary position}{\textbf{September 2022 - June 2024}}{Affiliation of the Organization}{Beijing, China}
+\end{rSubsection}
+
+%3
+\begin{rSubsection}{Mention the voluntary position}{\textbf{September 2022 - June 2024}}{Affiliation of the Organization}{Beijing, China}
+\end{rSubsection}
+
+\end{rSection}
+
+
+
+
+
+%--------------	Achicements ------------------------------------
+
+\begin{rSection}{Achievements} \itemsep -2pt
+
+{Mention your Achivemtn 1 }\hfill {\em December 2024} \\
+%{Chinese Government Scholarship-2024 for PhD Degree }\hfill {\em September 2024} \\
+{Mention your Achivemtn 2 }\hfill {\em September 2022} \\
+
+\end{rSection}
+
+
+
+%--------------	References ------------------------------------
+\begin{rSection}{References}
+
+%Ref_1
+\begin{rSubsection}{Professor XXXXX }{}{Designation ,\\
+Department of Name, School of Mechanical Engineering,\\
+Beijing Institute of Technology,\\
+Beijing, China.\\
+Phone: +86-XXXXXXXXXXXX}
+%{Beijing, China}{oooo}
+{Email: XXXXXXXXXX @email.com}
+\end{rSubsection}
+
+%Ref_2
+\begin{rSubsection}{Professor XXXXX }{}{Designation ,\\
+Department of Name, School of Mechanical Engineering,\\
+Beijing Institute of Technology,\\
+Beijing, China.\\
+Phone: +86-XXXXXXXXXXXX}
+%{Beijing, China}{oooo}
+{Email: XXXXXXXXXX @email.com}
+\end{rSubsection}
+
+
+%Ref_3
+\begin{rSubsection}{Professor XXXXX }{}{Designation ,\\
+Department of Name, School of Mechanical Engineering,\\
+Beijing Institute of Technology,\\
+Beijing, China.\\
+Phone: +86-XXXXXXXXXXXX}
+%{Beijing, China}{oooo}
+{Email: XXXXXXXXXX @email.com}
+\end{rSubsection}
+%\end{rSubsection}
+
+
+\end{rSection}
+
+
+
+\end{document}
